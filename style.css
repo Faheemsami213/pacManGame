@@ -1,0 +1,87 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgb(238,174,185);
+    background: radial-gradient(circle, rgba(238,174,185,1) 0%, rgba(233,161,148,1) 100%);
+}
+h1,#scoreDisplay{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border:2px solid rgb(32,61,110);
+    border-radius: 2px;
+    background: rgb(122, 74, 236);
+    margin-left: 100%;
+}
+  #grid div{
+      width: 20px;
+      height: 20px;
+  }
+.wall{
+    background: rgb(32,61,110);
+   
+    
+}
+.pac-dot {
+    background-color: rgb(51, 152, 170);   
+    border: 5px solid rgb(235, 215, 221);
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+.power-pallet{
+    /* border: 1px solid rgb(230, 86, 86); */
+    background-color: rgb(230, 86, 86);
+}
+.ghost-layer{
+    background-color: rgb(51, 152, 170);
+}
+.empyt-box{
+    background: rgb(122, 74, 236);
+
+}
+.pacman{
+    background-color: yellow;
+    border-radius: 12px;
+}
+
+
+.blinky{
+    background-image:  url("images/blink.gif");
+    background-size: cover;
+   
+}
+.pinky{
+    background-image:  url("images/pinky.gif");
+    background-size: cover;
+
+
+
+}
+.inky{
+    background-image:  url("images/inky.gif");
+    background-size: cover;
+
+
+}
+.clyde{
+    background-image:  url("images/clyde.gif");
+    background-size: cover;
+
+
+}
+.scared-ghost{
+    background-image: url("images/inky.gif");
+    background-size: cover;
+}
